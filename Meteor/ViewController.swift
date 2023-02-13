@@ -222,7 +222,7 @@ class ViewController: UIViewController {
     // 시간에 따라 운석의 속도를 높이는 메소드
     func speedUp() -> Double {
         // 운석의 속도
-        let speed: Double = 7 + Double(time / 890)
+        let speed: Double = 7 + Double(time / 900)
         
         return speed
     }
